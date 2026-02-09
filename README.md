@@ -1,6 +1,6 @@
 # 🐍 Snake Word Hunt
 
-**[Play in Browser](https://MesutKaval.github.io/Snake-Word-Hunt/)** 🚀
+**[Play in Browser](https://mesutkaval.github.io/snake_word_hunt/)** 🚀
 
 A modern, fast-paced web game that combines the thrill of the classic Snake game with word puzzle strategy.
 
@@ -39,7 +39,7 @@ The game features special portals with strategic importance:
 
 ### Option 1: Play Online (Recommended)
 Click the link below to play without downloading anything:
-👉 **[https://MesutKaval.github.io/Snake-Word-Hunt/](https://MesutKaval.github.io/Snake-Word-Hunt/)**
+👉 **[https://mesutkaval.github.io/snake_word_hunt/](https://mesutkaval.github.io/snake_word_hunt/)**
 
 ### Option 2: Run Locally
 To play offline:
