@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Word Hunt</title>
+    <link rel="stylesheet" href="style.css?v=202602051237">
+</head>
+<body>
+
+
+    <div class="oyun-container">
+        <div class="oyun-sol-panel">
+            
+            <div class="oyun-bilgileri">
+                <div class="bilgi-kutusu">
+                    <div class="ust-bilgi-panel">
+                        <div class="seviye-container">
+                            <span class="seviye-label">LEVEL</span>
+                            <span id="seviyeGostergesi">1</span>
+                        </div>
+                        <div class="skor-container">
+                            <span class="skor-label">SCORE</span>
+                            <span id="skorGostergesi">0 / 10</span>
+                        </div>
+                        <div class="zaman-container">
+                            <span class="zaman-label">TIME</span>
+                            <span id="zamanGostergesi">03:00</span>
+                        </div>
+                    </div>
+                    <div class="ilerleme-barı">
+                        <div id="ilerlemeBarı" class="ilerleme-dolu"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="oyun-icerik-satiri">
+                <div class="oyun-alanı-container">
+                    <canvas id="oyunAlani"></canvas>
+                </div>
+
+                <div class="kelime-paneli-ic">
+                    <h2>Words Found</h2>
+                    <ul id="bulunanKelimelerListesi">
+                    </ul>
+                </div>
+            </div>
+
+            <div id="kelimeGostergesi" class="kelime-göstergesi-modern">
+                <span class="kelime-label">YOUR WORD:</span>
+                <span id="kelimeMetni"></span>
+            </div>
+            
+            <div class="buton-paneli">
+                <button id="yeniOyunBtn" class="buton-modern">
+                    <span class="buton-ikon">🎮</span>
+                    New Game
+                </button>
+                <button id="tamEkranBtn" class="buton-modern">
+                    <span class="buton-ikon">📺</span>
+                    Fullscreen
+                </button>
+                <button id="pauseBtn" class="buton-modern">
+                    <span class="buton-ikon">⏸️</span>
+                    <span class="pause-text">Pause</span>
+                </button>
+                <div class="ses-kontrol buton-modern buton-kutu">
+                    <span class="buton-ikon">🎮</span>
+                    <label for="sesToggle">8-bit Sound:</label>
+                    <button id="sesToggle" class="buton-ic">On</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+            <div class="gamepad-kutu">
+                <div id="gamepadDurum" class="gamepad-durum">Gamepad: not connected</div>
+                <div class="gamepad-ipuclari">
+                    <div>Left stick / D‑pad: direction</div>
+                    <div>A (0): Pause</div>
+                    <div>Y (4): Fullscreen</div>
+                    <div>Button 7: New Game</div>
+                    <div>START (9) / VIEW (3): Start Game</div>
+                </div>
+            </div>
+
+</body>
+</html>
