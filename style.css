@@ -15,29 +15,29 @@
     --arkaplan-gradient-1: #1e1b2e;
     --arkaplan-gradient-2: #2a2640;
     --arkaplan-gradient-3: #352f56;
-    
+
     /* Panel - Yarı saydam koyu */
     --panel-renk: rgba(30, 27, 46, 0.9);
-    
+
     /* Vurgu - Pastel mor/pembe */
     --vurgu-renk: #c4b5fd;
     --vurgu-renk-2: #fbb6ce;
-    
+
     /* Metin - Açık pastel */
     --metin-renk: #e2d9f3;
-    
+
     /* Durum renkleri - pastel */
     --başarı-renk: #fbbf24;
     --hata-renk: #fca5a5;
     --uyarı-renk: #fde68a;
-    
+
     /* Gölgeler - renkli pastel */
     --gölge: 0 10px 40px rgba(196, 181, 253, 0.25);
     --gölge-hover: 0 15px 50px rgba(251, 182, 206, 0.35);
-    
+
     /* Animasyon */
     --geçiş: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    
+
     /* Glass morphism */
     --glass-bg: rgba(42, 38, 64, 0.5);
     --glass-border: rgba(196, 181, 253, 0.3);
@@ -441,6 +441,7 @@ body:-ms-fullscreen #oyunAlani {
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
     padding: 16px 8px;
+    padding-right: calc(8px + 45ch);
     box-shadow: var(--gölge), inset 0 0 20px rgba(255, 255, 255, 0.05);
     border: 2px solid var(--glass-border);
     display: flex;
@@ -483,8 +484,7 @@ body:-ms-fullscreen #oyunAlani {
     letter-spacing: 1.5px;
     text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
     white-space: nowrap;
-    flex: 1;
-    text-align: right;
+    flex: none;
 }
 
 #kelimeMetni {
@@ -501,9 +501,9 @@ body:-ms-fullscreen #oyunAlani {
     min-height: auto;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    text-align: left;
-    flex: 1;
+    justify-content: center;
+    text-align: center;
+    flex: none;
 }
 
 @keyframes gradientShift {
