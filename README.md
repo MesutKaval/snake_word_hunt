@@ -6,6 +6,8 @@ A modern, fast-paced web game that combines the thrill of the classic Snake game
 
 ![Game Screenshot](assets/screenshot.png)
 
+![Gameplay](assets/animation.gif)
+
 ## 🎮 How to Play
 
 Control the snake to collect letters and build valid English words!
