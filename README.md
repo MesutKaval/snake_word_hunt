@@ -4,8 +4,6 @@
 
 A modern, fast-paced web game that combines the thrill of the classic Snake game with word puzzle strategy.
 
-![Game Screenshot](assets/screenshot.png)
-
 ![Gameplay](assets/animation.gif)
 
 ## 🎮 How to Play
