@@ -54,4 +54,6 @@ To play offline:
 
 ## 📄 License
 
-This game was designed by **Mesut Kaval**, with AI tools used during the coding process. It is open source and free to use.
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it.
+
+This game was designed by **Mesut Kaval**, with AI tools used during the coding process.
