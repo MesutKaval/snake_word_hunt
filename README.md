@@ -9,7 +9,7 @@ Snake Word Hunt is a web-based game that combines classic snake mechanics with w
 ## 🎮 How to Play
 
 ### Controls
-- **Arrow Keys** or **W, A, S, D** — Move the snake
+- **Arrow Keys** (⬅️⬆️⬇️➡️) — Move the snake
 - **Space** — Start game / Advance to next level / Pause
 - **Gamepad** — Full controller support (see in-game hints)
 
